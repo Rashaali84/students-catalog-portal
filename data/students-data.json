@@ -1,0 +1,89 @@
+{
+  "next_id": 8,
+  "students": [
+    {
+      "id": 1,
+      "name": "David Acme",
+      "age": 23,
+      "grade_year": 10,
+      "home_address": "wsp,brussels",
+      "phone_no": 123456,
+      "email_address": "xyz@gmail.com",
+      "join_date": "19/04/2010",
+      "graduated": false,
+      "graduation_year": null
+    },
+    {
+      "id": 2,
+      "name": "David Acme",
+      "age": 23,
+      "grade_year": 10,
+      "home_address": "wsp,brussels",
+      "phone_no": 123456,
+      "email_address": "xyz@gmail.com",
+      "join_date": "19/04/2010",
+      "graduated": false,
+      "graduation_year": null
+    },
+    {
+      "id": 3,
+      "name": "David Acme",
+      "age": 23,
+      "grade_year": 10,
+      "home_address": "wsp,brussels",
+      "phone_no": 123456,
+      "email_address": "xyz@gmail.com",
+      "join_date": "19/04/2010",
+      "graduated": false,
+      "graduation_year": null
+    },
+    {
+      "id": 4,
+      "name": "David Acme",
+      "age": 23,
+      "grade_year": 10,
+      "home_address": "wsp,brussels",
+      "phone_no": 123456,
+      "email_address": "xyz@gmail.com",
+      "join_date": "19/04/2010",
+      "graduated": false,
+      "graduation_year": null
+    },
+    {
+      "id": 5,
+      "name": "David Acme",
+      "age": 23,
+      "grade_year": 10,
+      "home_address": "wsp,brussels",
+      "phone_no": 123456,
+      "email_address": "xyz@gmail.com",
+      "join_date": "19/04/2010",
+      "graduated": false,
+      "graduation_year": null
+    },
+    {
+      "id": 6,
+      "name": "David Acme",
+      "age": 23,
+      "grade_year": 10,
+      "home_address": "wsp,brussels",
+      "phone_no": 123456,
+      "email_address": "xyz@gmail.com",
+      "join_date": "19/04/2010",
+      "graduated": false,
+      "graduation_year": "2020-04-30"
+    },
+    {
+      "id": 7,
+      "name": "Rasha",
+      "grade_year": 2,
+      "home_address": "gggg",
+      "phone_no": 32778866550,
+      "email_address": "rashaali84@gmail.com",
+      "join_date": "2020-05-29",
+      "graduated": true,
+      "graduation_year": "2020-04-30",
+      "age": 14
+    }
+  ]
+}

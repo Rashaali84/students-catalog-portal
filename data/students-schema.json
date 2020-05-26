@@ -1,0 +1,43 @@
+{
+  "$id": "http://json-schema.org/draft-04/schema#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "student",
+  "description": "student profile",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "positive integer or string of digits",
+      "type": ["string", "integer"],
+      "pattern": "^[1-9][0-9]*$",
+      "minimum": 1
+    },
+    "name": { "type": "string", "maxLength": 128 },
+    "age": { "type": "integer", "minimum": 13 },
+    "grade_year": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 13
+    },
+    "home_address": {
+      "type": "string"
+    },
+    "phone_no": {
+      "type": "integer",
+      "pattern": "^d{10}$"
+    },
+    "email_address": { "type": "string", "format": "email" },
+    "join_date": { "type": "string", "format": "date" },
+    "graduated": { "type": "boolean" },
+    "graduation_year": { "type": "string", "format": "date" }
+  },
+  "required": [
+    "name",
+    "grade_year",
+    "home_address",
+    "phone_no",
+    "email_address",
+    "join_date",
+    "graduated",
+    "graduation_year"
+  ]
+}
