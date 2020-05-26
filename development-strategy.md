@@ -1,4 +1,4 @@
-#  courses-web-app: Development Strategy
+#  Students-web-portal: Development Strategy
 
 Building this site one step at a time
 
@@ -14,21 +14,21 @@ Building this site one step at a time
 
 ## 1. Setup
 
-- Create boilerplate for api(controllers.js,index.js, routes.js) , client(actions.js,inti.js) ,  , index.js as an end point. 
-- Create boilerplate courses.json.
+- Create boilerplate for api(controllers.js,index.js, routes.js) , client(actions.js,inti.js,model.js) ,  , index.js as an end point. 
+- Create boilerplate students-data.json.
 
-## 2. User Story: Add a course
+## 2. User Story: Add a student
 
--`api/controller.js` add a course to the db.
+-`api/controller.js` add a student to the db.
 
-## 3. User Story: List courses
+## 3. User Story: List student
 
--`api/controller.js` list all courses from db .
+-`api/controller.js` list all students from db .
 
-## 4. User Story: Update a course
+## 4. User Story: Update a student
 
--`api/controller.js` update a course in courses.json.
+-`api/controller.js` update a student in students-data.json.
 
-## 5. User Story: Delete a course
+## 5. User Story: Delete a student
 
--`api/controller.js` delete a course from courses.json.
+-`api/controller.js` delete a student from students-data.json.
