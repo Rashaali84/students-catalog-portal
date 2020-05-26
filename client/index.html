@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>students web-app</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app/actions.js"></script>
+    <script type="module" src="./app/init.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <html>
+      <form>
+        <div class="container">
+          <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Student-Registration-Form </a>
+          </nav>
+          <div class="form-group">
+            <label for="name">Student-Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              required
+              id="name"
+              placeholder="Enter student name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="id">Student-Id:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="id"
+              placeholder="Enter student Id"
+            />
+          </div>
+          <div class="form-group">
+            <label for="age">Student-age:</label>
+            <input
+              type="number"
+              class="form-control"
+              required
+              id="age"
+              placeholder="Enter student age"
+            />
+          </div>
+          <div class="form-group">
+            <label for="grade_year">Student-grade_year:</label>
+            <input
+              type="number"
+              class="form-control"
+              id="grade_year"
+              placeholder="Enter grade year"
+              required
+              pattern="\d{2}"
+              maxlength="2"
+              minlength="1"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone_no">Student-Mobile-phone number:</label>
+            <input
+              type="number"
+              class="form-control"
+              required
+              id="phone_no"
+              placeholder="Enter phone number"
+            />
+          </div>
+          <div class="form-group">
+            <label for="home_address">Student-Home-address:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="home_address"
+              aria-describedby="addressHelp"
+              placeholder="Enter Home-address"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email_address">email_address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email_address"
+              placeholder="email_address required"
+              required
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="join_date">join_date</label>
+            <input
+              type="date"
+              class="form-control"
+              id="join_date"
+              placeholder="join date"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="graduation_year">graduation year</label>
+            <input
+              type="date"
+              class="form-control"
+              id="graduation_year"
+              placeholder="graduation year"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="radio"
+              id="graduated"
+              name="graduated"
+              value="graduated"
+              required
+            />
+            not-graduated<br />
+            <input
+              type="radio"
+              id="graduated-not"
+              name="graduated"
+              value="not-graduated"
+              required
+            />
+            graduated
+          </div>
+          <div class="form-group">
+            <button id="save-button">add student</button>
+            <button id="update-button">update student</button>
+            <button id="delete-button">delete student</button>
+          </div>
+          <div class="form-group">
+            <details open>
+              <summary>students JSON entries </summary>
+              <ul id="container"></ul>
+            </details>
+          </div>
+        </div>
+      </form>
+    </html>
+  </body>
+</html>
